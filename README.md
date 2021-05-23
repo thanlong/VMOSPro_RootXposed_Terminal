@@ -19,3 +19,6 @@ In this video, I will show you how to root and install Xposed Framework on VM wh
 [SUHelper_vmospro.zip](http://link1s.com/HCN5tkQf)
 
 [Xposed_vmospro.zip](http://link1s.com/gXba)
+
+Or you can download [TerminalTool.zip](http://link1s.com/W2GN7) with both SU Helper and Xposed.
+Terminal command: `tool`
