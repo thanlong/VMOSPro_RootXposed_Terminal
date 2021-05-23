@@ -1,5 +1,8 @@
 ## Description
 
+<a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.ytimg.com/vi_webp/hW93qhU4TA0/hqdefault.webp"/></a>
+
+
 In this video, I will show you how to root and install Xposed Framework on VM which is not GEEK ROM, so you needn't pay VIP service fee for VMOS. Not only root and install xposed but also unroot and uninstall xposed on custom ROM.
 
  1. Download SuHelper and Xposed zip
