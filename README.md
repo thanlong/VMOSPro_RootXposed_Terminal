@@ -7,7 +7,7 @@ In this video, I will show you how to root and install Xposed Framework on VM wh
  3. Use ES Files or any file manager app to copy `system` folder inside zip files to root path `/`
  4. Apply overwrite
  5. Then open Terminal Emulator or Material Terminal (available on Play Store)
- 6. Type command: chmod 777 `/system/xbin/*`
+ 6. Type command: `chmod 777 /system/xbin/*`
  7. Type `root` command to root or unroot
  8. Type `xposed` command to install/uninstall Xposed Framework
 
