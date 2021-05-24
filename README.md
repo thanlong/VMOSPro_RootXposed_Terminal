@@ -3,7 +3,9 @@
 <a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.ytimg.com/vi_webp/hW93qhU4TA0/hqdefault.webp"/></a>
 
 
-In this video, I will show you how to root and install Xposed Framework on VM which is not GEEK ROM, so you needn't pay VIP service fee for VMOS. Not only root and install xposed but also unroot and uninstall xposed on custom ROM.
+Root and Xposed is the Paid features of VMOS Pro. I hate having to purchase to get Root/Xposed, so I make a Terminal script instead and it is very easy to use!
+
+This post will guide you how to root and install Xposed Framework on VM which is not GEEK ROM, so you needn't pay VIP service fee for VMOS or download another rooted ROM.  Not only root and install xposed but also unroot and uninstall xposed on any ROM.
 
  1. Download VMOS Pro Terminal Tool zip
  2. Import zip to VMOS Pro
