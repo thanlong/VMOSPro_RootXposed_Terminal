@@ -24,4 +24,4 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 ## Changelogs
 
-v1.0: Add Busybox installer
+[Tool] v1.0: Add Busybox installer
