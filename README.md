@@ -20,8 +20,7 @@ Also, my GEEK ROM is preinstalled Terminal Tool.
 
 ## Download
 
-SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1s.com/W2GN7) with both SU Helper and Xposed.
-Terminal command: `tool`
+SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1s.com/W2GN7)
 
 ## Changelogs
 
