@@ -17,6 +17,11 @@ In this video, I will show you how to root and install Xposed Framework on VM wh
 
 Also, my GEEK ROM is preinstalled Terminal Tool.
 
+## VM Android version
+
+Support Android 5.1 and 7.1
+
+Android 4.4 will be supported soon!
 
 ## Download
 
