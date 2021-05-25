@@ -17,6 +17,7 @@ This post will guide you how to root and install Xposed Framework on VM which is
  8. Type `root` command to root or unroot
  9. Type `xposed` command to install/uninstall Xposed Framework
 
+Only Superuser by Koush root supported, not Magisk or SuperSU.
 My GEEK ROM have Terminal Tool pre-installed!
 
 
