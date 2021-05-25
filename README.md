@@ -14,10 +14,15 @@ This post will guide you how to root and install Xposed Framework on VM which is
  5. Then open Terminal Emulator or Material Terminal (available on Play Store)
  6. Type command: `chmod 777 /system/xbin/*` (set command to be executable!)
  7. Type `tool` command to open Tool
+
 <img src="https://i.imgur.com/3XXA2Sy.png" />
+
  8. Type `root` command to root or unroot
+
 <img src="https://i.imgur.com/FviSSe3.png" />
+
  9. Type `xposed` command to install/uninstall Xposed Framework
+
 <img src="https://i.imgur.com/4xMi7fx.png" /> 
 
 Only Superuser by Koush root supported, not Magisk or SuperSU.
