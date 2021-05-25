@@ -17,7 +17,20 @@ This post will guide you how to root and install Xposed Framework on VM which is
  8. Type `root` command to root or unroot
  9. Type `xposed` command to install/uninstall Xposed Framework
 
-Also, my GEEK ROM is preinstalled Terminal Tool.
+My GEEK ROM have Terminal Tool pre-installed!
+
+
+### Why can I add files to `/` path in VMOS?
+System partition in vmos is read-write.
+So i can add files to `/` without root.
+
+### Does VMOS support Magisk?
+VMOS currently doesn't supported Magisk because it doesn't have boot.img and recovery mode. Also VMOS cannot run magiskinit when replacing init.
+
+### Lost root after reboot?
+Because VMOS Team may have added some sort of anti-piracy to cause Superuser to crash on 7.1 or prevent root from installing on non-GEEK ROMs so every boot you will need to type `root` to get root access!
+
+
 
 ## VM Android version
 
