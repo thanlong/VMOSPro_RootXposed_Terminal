@@ -35,9 +35,7 @@ Because VMOS Team may have added some sort of anti-piracy to cause Superuser to 
 
 ## VM Android version
 
-Support Android 5.1 and 7.1
-
-Android 4.4 will be supported soon!
+Support Android 7.1, 5.1 and 4.4
 
 ## Download
 
@@ -45,4 +43,6 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 ## Changelogs
 
-[Tool] v1.0: Add Busybox installer
+v1.1: Add Root and Xposed for Android 4.4
+
+v1.0: Add Busybox installer
