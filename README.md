@@ -47,6 +47,8 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 ## Changelogs
 
+v1.2: Update root.sh script
+
 v1.1: Support Root and Xposed for Android 4.4
 
 v1.0: Add Busybox installer
