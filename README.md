@@ -52,7 +52,7 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 v1.3: Create applet symlinks during Busybox installation.
 
-v1.2: Update root.sh script. Add "Wipe dalvik-cache"
+v1.2: Update `root.sh` script. Add "Wipe dalvik-cache"
 
 v1.1: Support Root and Xposed for Android 4.4
 
