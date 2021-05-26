@@ -25,8 +25,11 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
 <img src="https://i.imgur.com/4xMi7fx.png" /> 
 
+This script/tool can be used on VMOS, VMOS and any virtual machine (F1VM, VphoneGaga, X8Sandbox) with read-write system partition!
+
 Only Superuser by Koush root supported, not Magisk or SuperSU.
-My GEEK ROM have Terminal Tool pre-installed!
+
+Also, My GEEK ROM have Terminal Tool v1.3 pre-installed.
 
 
 ### Why can I add files to `/` path in VMOS?
@@ -47,8 +50,10 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 ## Changelogs
 
+v1.3: Create applet symlinks during Busybox installation.
+
 v1.2: Update root.sh script. Add "Wipe dalvik-cache"
 
 v1.1: Support Root and Xposed for Android 4.4
 
-v1.0: Add Busybox installer
+v1.0: SU Helper and Xposed are in VMOS Pro Terminal Tool. Add Busybox installer
