@@ -50,7 +50,7 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 ## Changelogs
 
-v1.4: Add "Change root package". VMOS Pro will prevent you from installing root on non-rooted by causing superuser app to crash because Root is not free. This option also change superuser app package!
+v1.4: Add "Change root package". VMOS Pro will prevent you from installing root on non-rooted ROM by causing superuser app to crash because Root is not free. This option also change superuser app package!
 
 v1.3: Create applet symlinks during Busybox installation.
 
