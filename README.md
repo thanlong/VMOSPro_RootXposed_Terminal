@@ -39,6 +39,10 @@ So i can add files to `/` without root.
 ### Does VMOS support Magisk?
 VMOS currently doesn't supported Magisk because it doesn't have boot.img and recovery mode. Also VMOS cannot run magiskinit when replacing init.
 
+### Superuser crash, lost root after reboot?
+
+VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: Open Terminal, type `root` then type `1` to change superuser package.
+
 
 ## VM Android version
 
@@ -49,6 +53,8 @@ Support Android 7.1, 5.1 and 4.4
 SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1s.com/W2GN7)
 
 ## Changelogs
+
+Always update!!!
 
 v1.4: Add "Change root package". VMOS Pro will prevent you from installing root on non-rooted ROM by causing superuser app to crash because Root is not free. This option also change superuser app package from `com.koushikdutta.superuser` to `com.koushikdutta.sumasterz`!
 
