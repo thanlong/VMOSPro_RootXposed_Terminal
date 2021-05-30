@@ -25,7 +25,7 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
 <img src="https://i.imgur.com/4xMi7fx.png" /> 
 
-This script/tool can be used on VMOS, VMOS and any virtual machine (F1VM, VphoneGaga, X8Sandbox) with read-write system partition!
+This script/tool can be used on VMOS, VMOS and any virtual machine (F1VM, X8Sandbox) with read-write system partition!
 
 Only Superuser by Koush root supported, not Magisk or SuperSU.
 
