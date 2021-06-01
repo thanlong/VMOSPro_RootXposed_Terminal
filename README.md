@@ -43,6 +43,17 @@ VMOS currently doesn't supported Magisk because it doesn't have boot.img and rec
 
 VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: Open Terminal, type `root` then type `1` to change superuser package.
 
+## How does it work?
+
+This tool simply does these jobs.
+
+Root: Push `su` binary to `/system/xbin` so that it can grant root permission to any app that call `su` command. 
+
+Xposed: Run Xposed script to replace some file in system.
+
+Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks.
+
+Uninstall: Delete and restore files
 
 ## VM Android version
 
