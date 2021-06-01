@@ -39,9 +39,17 @@ So i can add files to `/` without root.
 ### Does VMOS support Magisk?
 VMOS currently doesn't supported Magisk because it doesn't have boot.img and recovery mode. Also VMOS cannot run magiskinit when replacing init.
 
+### Root installed but cannot grant root access
+
+This maybe because daemon su is not running.
+Try to shut down and restart the VM.
+If this doesn't help, so this VM isn't supported.
+
 ### Superuser crash, lost root after reboot?
 
-VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: Open Terminal, type `root` then type `1` to change superuser package.
+This issue appears on VMOS Pro Global
+
+VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: After root and reboot, if you have Superuser crashed, you can open Terminal, type `root` then type `1` to change superuser package.
 
 ## How does it work?
 
@@ -49,7 +57,7 @@ This tool simply does these jobs.
 
 Root: Push `su` binary to `/system/xbin` so that it can grant root permission to any app that call `su` command. 
 
-Xposed: Run Xposed script to replace some file in system.
+Xposed: Run script to replace some files in system include `app_process`
 
 Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks.
 
