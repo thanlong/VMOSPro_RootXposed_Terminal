@@ -75,6 +75,8 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 Always update!!!
 
+v1.7: "Change VMOS property" now is call "VMOS Props Config". Add Merge vmos.prop with build.prop (VMOS Props Config)
+
 v1.6: Add "Change VMOS property". Change GPU Vendor, GPU Renderer and IMEI without reboot.
 
 v1.5: Add "Check su binary" in SU Helper to check daemon root is running or not.
