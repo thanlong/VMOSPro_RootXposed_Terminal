@@ -63,6 +63,11 @@ Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks.
 
 Uninstall: Delete and restore files
 
+## VMOS Tool module (v1.8)
+
+VMOS Tool module is an folder placed in `/sdcard/toolflash`, include `system` folder, `config.sh` and `custom.sh`
+
+
 ## VM Android version
 
 Support Android 7.1, 5.1 and 4.4
@@ -74,6 +79,8 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 ## Changelogs
 
 Always update!!!
+
+v1.8: Add "Install VMOS Tool modules" function.
 
 v1.7: "Change VMOS property" now is call "VMOS Props Config". Add Merge vmos.prop with build.prop (VMOS Props Config)
 
