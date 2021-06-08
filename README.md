@@ -25,11 +25,11 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
 <img src="https://i.imgur.com/4xMi7fx.png" /> 
 
-This script/tool can be used on VMOS, VMOS and any virtual machine with read-write system partition!
+This script/tool can be used on any virtual machine with read-write system partition!
 
 Only Superuser by Koush root supported, not Magisk or SuperSU.
 
-Also, My GEEK ROM have Terminal Tool v1.3 pre-installed.
+Also, My GEEK ROM have Terminal Tool v1.8 pre-installed.
 
 
 ### Why can I add files to `/` path in VMOS?
