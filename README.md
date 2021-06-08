@@ -1,6 +1,6 @@
 ## Description
 
-<a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.ytimg.com/vi_webp/hW93qhU4TA0/hqdefault.webp"/></a>
+<a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.imgur.com/LDSRrFt.png"/></a>
 
 
 Root and Xposed is the Paid features of VMOS Pro. I hate having to purchase to get Root/Xposed, so I make a Terminal script instead and it is very easy to use!
