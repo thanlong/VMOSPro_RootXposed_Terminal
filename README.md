@@ -68,13 +68,13 @@ Uninstall: Delete and restore files
 VMOS Tool module is an folder placed in `/sdcard/toolflash`, include `system` folder, `config.sh` and `custom.sh`
 
 During installation, VMOS Tool will execute `config.sh` first.  If you list folders and files in `REMOVE_LIST`, VMOS Tool will delete these folders and files.  Then, if `IGNORE_PLACE` is set to false, VMOS Tool will copy all the files in the `system` directory to the `/system` directory.  Finally, the VMOS Tool will execute `custom.sh` if it is existed.
-VMOS Tools module settings are summarized as follows::
+VMOS Tools module settings are summarized as follows:
 
-Stage 1: Execute `config.sh`
+Stage 1: Execute `config.sh` script
 
 Stage 2: Copy files to `/system` (`IGNORE_PLACE`=false)
 
-Stage 3: Execute `custom.sh`
+Stage 3: Execute `custom.sh` script
 
 ## VM Android version
 
