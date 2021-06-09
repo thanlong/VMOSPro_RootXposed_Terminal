@@ -103,7 +103,7 @@ Stage 3: Execute `custom.sh` script
 
 5. Open Terminal app, type `tool` to run VMOS Pro Terminal Tool, then type `6` (Enter) and `yes` (Enter) to install module.
 
-`<custom_name>` is optional name and should only include only `abc123-_.` characters.
+`<custom_name>` is optional name and should include `abc123-_.` characters only.
 
 ## VM Android version
 
