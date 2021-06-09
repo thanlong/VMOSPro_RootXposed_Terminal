@@ -19,11 +19,7 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
  8. Type `root` command to root or unroot
 
-<img src="https://i.imgur.com/FviSSe3.png" />
-
  9. Type `xposed` command to install/uninstall Xposed Framework
-
-<img src="https://i.imgur.com/4xMi7fx.png" /> 
 
 This script/tool can be used on any virtual machine with read-write system partition!
 
