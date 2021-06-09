@@ -23,7 +23,20 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
 This script/tool can be used on any virtual machine with read-write system partition!
 
-My GEEK ROM have Terminal Tool v1.8 pre-installed.
+My GEEK ROM have Terminal Tool v1.8 pre-installed:
+
+[Android 7.1.2 64-bit GEEK (gapps)](http://link1s.com/geQV5)
+
+[Android 7.1.2 64-bit GEEK (vanilla)](http://link1s.com/VuBG)
+
+[Android 7.1.2 32-bit GEEK (gapps)](http://link1s.com/13YlGTOA)
+
+[Android 7.1.2 32-bit GEEK (vanilla)](http://link1s.com/LFzYlm)
+
+[Android 5.1.1 32-bit GEEK (gapps)](http://link1s.com/h4w80)
+
+[Android 5.1.1 32-bit GEEK (vanilla)](http://link1s.com/4o4k9)
+
 
 
 ### Why can I add files to `/` path in VMOS?
