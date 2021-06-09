@@ -23,23 +23,26 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
 This script/tool can be used on any virtual machine with read-write system partition!
 
-Only Superuser by Koush root supported, not Magisk or SuperSU.
-
-Also, My GEEK ROM have Terminal Tool v1.8 pre-installed.
+My GEEK ROM have Terminal Tool v1.8 pre-installed.
 
 
 ### Why can I add files to `/` path in VMOS?
 System partition in vmos is read-write.
 So i can add files to `/` without root.
 
-### Does VMOS support Magisk?
-VMOS currently doesn't supported Magisk because it doesn't have boot.img and recovery mode. Also VMOS cannot run magiskinit when replacing init.
+### Does VMOS support Magisk or SuperSU?
+
+Only supports Superuser by Koush root, does not support Magisk or SuperSU.
+
+VMOS currently doesn't supported Magisk because it doesn't have `boot.img` and recovery mode. Also VMOS cannot run `magiskinit` when replacing `init`.
+
+VMOS may support Magisk in the future.
+
 
 ### Root installed but cannot grant root access
 
 This maybe because daemon su is not running.
 Try to shut down and restart the VM.
-If this doesn't help, so this VM isn't supported.
 
 ### Superuser crash, lost root after reboot?
 
