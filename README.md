@@ -95,6 +95,8 @@ Stage 2: Copy files to `/system` (`IGNORE_PLACE`=false)
 
 Stage 3: Execute `custom.sh` script
 
+Wooo!!! Look like flashable zip installation. VMOS Tool doesn't support extract zip by `unzip` command due to VM limitations.
+
 You can make a module by youself and it is easy!
 
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
