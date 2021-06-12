@@ -95,7 +95,7 @@ Stage 2: Copy files to `/system` (`IGNORE_PLACE`=false)
 
 Stage 3: Execute `custom.sh` script
 
-Wooo!!! Look like flashable zip installation. VMOS Tool doesn't support extract zip by `unzip` command due to VM limitations.
+Wooo!!! Look like flashable zip installation. But VMOS Tool doesn't support extract zip by `unzip` command due to VM limitations.
 
 You can make a module by youself and it is easy!
 
@@ -105,8 +105,7 @@ You can make a module by youself and it is easy!
 
 `custom.sh` is a script which is executed after `/system` had been writed.
 
-After installation, VMOS Tool will delete `config.sh` and `custom.sh` to prevent any mistake occurs. So don't place your module project test at `/sdcard/toolflash`.
- 
+
 ### How to install a module?
 
 
@@ -133,6 +132,8 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 ## Changelogs
 
 Always update!!!
+
+v1.9: Update `main.sh` script
 
 v1.8: Add "Install VMOS Tool modules" function.
 
