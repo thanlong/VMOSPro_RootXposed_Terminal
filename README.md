@@ -75,7 +75,7 @@ Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks.
 
 Uninstall: Delete and restore files
 
-## VMOS Tool module (v1.8)
+## VMOS Tool module (v1.8+)
 
 ### About
 
@@ -109,7 +109,7 @@ You can make a module by youself and it is easy!
 ### How to install a module?
 
 
-1. Install VMOS Pro Terminal Tool v1.8 if it's not installed!
+1. Install VMOS Pro Terminal Tool v1.8+ if it's not installed!
 
 2. Download `<custom_name>.zip` and import file to VMOS Pro
 
