@@ -120,9 +120,20 @@ You can make a module / modification by youself and it is easy!
 
 `<custom_name>` is optional name and should include `abc123-_.` characters only.
 
-## VM Android version
+## Supported VM & Android version
+### Supported
 
-Support Android 7.1, 5.1 and 4.4
+Virtual machine with Read-write `/system`
+
+VMOS Pro: Android 7.1, 5.1 and 4.4
+
+VMOS: Android 5.1
+
+### Not supported
+
+F1VM Lite (Read-only system)
+
+VphoneGaga (Read-only system)
 
 ## Download
 
@@ -131,6 +142,8 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 ## Changelogs
 
 Always update!!!
+
+v1.11: Update `root.sh` script.
 
 v1.10: Update System R/W Checker: `test_rw.sh` script
 
