@@ -132,11 +132,11 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 Always update!!!
 
-v1.10: 
+v1.10: Update System R/W Checker: `test_rw.sh` script
 
 v1.9: Update `main.sh` script
 
-v1.8: Add "Install VMOS Tool modules" function.
+v1.8: Add `Install VMOS Tool modules` function.
 
 v1.7: `Change VMOS property` now is call `VMOS Props Config`. Add Merge vmos.prop with build.prop (VMOS Props Config)
 
@@ -148,7 +148,7 @@ v1.4: Add `Change root package` in SU Helper. VMOS Pro will prevent you from ins
 
 v1.3: Create applet symlinks during Busybox installation.
 
-v1.2: Update `root.sh` script. Add "Wipe dalvik-cache"
+v1.2: Update `root.sh` script. Add `Wipe dalvik-cache`
 
 v1.1: Support Root and Xposed for Android 4.4
 
