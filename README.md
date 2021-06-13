@@ -55,6 +55,7 @@ VMOS may support Magisk in the future.
 ### Root installed but cannot grant root access
 
 This maybe because daemon su is not running.
+Type `getprop init.svc.daemonsu` to check daemonsu. Make sure `init.svc.daemonsu` is `running`, not `stopped` or `restart`.
 Try to shut down and restart the VM.
 
 ### Superuser crash, lost root after reboot?
@@ -95,9 +96,7 @@ Stage 2: Copy files to `/system` (`IGNORE_PLACE`=false)
 
 Stage 3: Execute `custom.sh` script
 
-Wooo!!! Look like flashable zip installation. But VMOS Tool doesn't support extract zip by `unzip` command due to VM limitations.
-
-You can make a module by youself and it is easy!
+You can make a module / modification by youself and it is easy!
 
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
@@ -133,17 +132,19 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 Always update!!!
 
+v1.10: 
+
 v1.9: Update `main.sh` script
 
 v1.8: Add "Install VMOS Tool modules" function.
 
-v1.7: "Change VMOS property" now is call "VMOS Props Config". Add Merge vmos.prop with build.prop (VMOS Props Config)
+v1.7: `Change VMOS property` now is call `VMOS Props Config`. Add Merge vmos.prop with build.prop (VMOS Props Config)
 
-v1.6: Add "Change VMOS property". Change GPU Vendor, GPU Renderer and IMEI without reboot.
+v1.6: Add `Change VMOS property`. Change GPU Vendor, GPU Renderer and IMEI without reboot.
 
-v1.5: Add "Check su binary" in SU Helper to check daemon root is running or not.
+v1.5: Add `Check su binary` in SU Helper to check daemon root is running or not.
 
-v1.4: Add "Change root package" in SU Helper. VMOS Pro will prevent you from installing root on non-rooted ROM by causing superuser app to crash because Root is not free. This option also change superuser app package from `com.koushikdutta.superuser` to `com.koushikdutta.sumasterz`!
+v1.4: Add `Change root package` in SU Helper. VMOS Pro will prevent you from installing root on non-rooted ROM by causing superuser app to crash because Root is not free. This option also change superuser app package from `com.koushikdutta.superuser` to `com.koushikdutta.sumasterz`!
 
 v1.3: Create applet symlinks during Busybox installation.
 
