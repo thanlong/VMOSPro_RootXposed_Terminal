@@ -143,7 +143,7 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 Always update!!!
 
-v1.12: New function: `Mount real storage`. Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage in virtual machine.
+v1.12: New function: `Mount real storage`. Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine.
 
 v1.11: Update `root.sh` script.
 
