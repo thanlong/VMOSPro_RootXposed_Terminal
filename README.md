@@ -51,6 +51,7 @@ VMOS currently doesn't supported Magisk because it doesn't have `boot.img` and r
 
 VMOS may support Magisk in the future.
 
+Magisk on VMOS project: https://github.com/HuskyDG/Magisk-on-VMOS
 
 ### Root installed but cannot grant root access
 
