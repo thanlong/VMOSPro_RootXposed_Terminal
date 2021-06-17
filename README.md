@@ -37,6 +37,24 @@ My GEEK ROM have Terminal Tool v1.8 pre-installed:
 
 [Android 5.1.1 32-bit GEEK (vanilla)](http://link1s.com/4o4k9)
 
+### Functions
+
+1. Superuser/Root: Root, remove root and check su binary.
+
+2. Xposed Framework
+
+3. Busybox
+
+4. Wipe dalvik-cache
+
+5. VMOS Props Config: Change VMOS property without reboot.
+
+6. Install modifications (VMOS Tool module)
+
+7. Mount real storage: Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
+
+8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
+
 
 
 ### Why can I add files to `/` path in VMOS?
