@@ -162,7 +162,7 @@ SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1
 
 Always update!!!
 
-v1.13: Support `late_start` and `post-fs-data` script.
+v1.13: Add Support for running script on `late_start` and `post-fs-data`.
 
 v1.12: New function: `Mount real storage`. Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
 
