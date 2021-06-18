@@ -125,9 +125,9 @@ You can make a module / modification by youself and it is easy!
 ├── mymod/
 │   ├── system/  #files in this folder will be added to /system
 │   │
-│   ├── config.sh   #script will execute on the beginning
+│   ├── config.sh   #script will be executed on the beginning
 │   │
-│   ├── custom.sh   #script will execute after config.sh
+│   ├── custom.sh   #script will be executed after config.sh
 │   │
 │   ├── <your_post-fs-data_script_name>.sh
 │   │
@@ -174,7 +174,7 @@ LATESTART=<your_late_start_script_name>.sh
 
 `system` folder include files and folders that will write to `/system`
 
-`custom.sh` is a script which is executed after `/system` had been writed.
+`custom.sh` is a script which is executed after `config.sh`.
 
 
 ### How to install a module?
