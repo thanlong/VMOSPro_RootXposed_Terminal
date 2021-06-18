@@ -111,7 +111,7 @@ VMOS Tools module installation are summarized as follows:
 
 Stage 1: Execute `config.sh` script
 
-Stage 2: Copy files to `/system` (`IGNORE_PLACE`=false)
+Stage 2: Copy files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, system will be touched after reboot.
 
 Stage 3: Execute `custom.sh` script
 
