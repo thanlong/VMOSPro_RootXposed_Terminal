@@ -156,7 +156,8 @@ VphoneGaga (Read-only system)
 
 ## Download
 
-SUHelper and Xposed Terminal now are in [VMOSPro_Terminal_Tool.zip](http://link1s.com/W2GN7)
+
+[VMOSPro_Terminal_Tool.zip](http://link1s.com/W2GN7)
 
 ## Changelogs
 
