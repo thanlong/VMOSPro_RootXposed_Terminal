@@ -99,7 +99,7 @@ Uninstall: Delete and restore files
 
 ### About
 
-VMOS Tool module (plugin) is folder placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. 
+VMOS Tool module (plugin) is folder placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
 
 VMOS Tool allows you to modify system in VM with simplest way!
 
