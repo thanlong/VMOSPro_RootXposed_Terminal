@@ -117,6 +117,19 @@ Stage 3: Execute `custom.sh` script
 
 You can make a module / modification by youself and it is easy!
 
+```
+•= /sdcard/toolflash/
+====== mymod/
+========== system/
+========== config.sh
+========== custom.sh
+========== <your_post-fs-data_script_name>.sh
+========== <your_late_start_script_name>.sh
+
+```
+
+
+
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
 Variables in `config.sh`:
@@ -136,11 +149,11 @@ IGNORE_PLACE=false
 
 # Input your post-fs-data script name here
 
-POSTFSDATA=
+POSTFSDATA=<your_post-fs-data_script_name>.sh 
 
 # Input your late_start script name here
 
-LATESTART=
+LATESTART=<your_late_start_script_name>.sh
 
 ```
 
