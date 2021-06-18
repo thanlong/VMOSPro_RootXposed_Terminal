@@ -123,11 +123,11 @@ You can make a module / modification by youself and it is easy!
 ├── .
 |
 ├── mymod/
-│   ├──  system/
+│   ├── system/  #files in this folder will be added to /system
 │   │
-│   ├──  config.sh
+│   ├── config.sh   #script will execute on the beginning
 │   │
-│   ├── custom.sh
+│   ├── custom.sh   #script will execute after config.sh
 │   │
 │   ├── <your_post-fs-data_script_name>.sh
 │   │
