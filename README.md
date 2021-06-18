@@ -170,6 +170,10 @@ POSTFSDATA=<your_post-fs-data_script_name>.sh
 
 LATESTART=<your_late_start_script_name>.sh
 
+# Set to true if you want to apply changes (replace or remove some files /system) only after boot 
+
+APPLY_ON_BOOT=false
+
 ```
 
 `system` folder include files and folders that will write to `/system`
@@ -216,7 +220,7 @@ VphoneGaga (Read-only system)
 
 Always update!!!
 
-v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (Replace `/system` files while the VM is running will caused some bugs).
+v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs.
 
 v1.13: Add Support for running script on `late_start` and `post-fs-data`.
 
