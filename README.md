@@ -119,6 +119,31 @@ You can make a module / modification by youself and it is easy!
 
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
+Variables in `config.sh`:
+
+```
+# List folders and files here if you want to remove, this will overwrite values above!
+REMOVE_LIST="
+
+"
+
+# == IGNORE PLACE ==
+# Set to true of you don't want place any file into /system
+
+IGNORE_PLACE=false
+
+# == SCRIPT ==
+
+# Input your post-fs-data script name here
+
+POSTFSDATA=
+
+# Input your late_start script name here
+
+LATESTART=
+
+```
+
 `system` folder include files and folders that will write to `/system`
 
 `custom.sh` is a script which is executed after `/system` had been writed.
