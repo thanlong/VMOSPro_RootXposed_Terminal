@@ -118,13 +118,26 @@ Stage 3: Execute `custom.sh` script
 You can make a module / modification by youself and it is easy!
 
 ```
-•= /sdcard/toolflash/
-====== mymod/
-========== system/
-========== config.sh
-========== custom.sh
-========== <your_post-fs-data_script_name>.sh
-========== <your_late_start_script_name>.sh
+/sdcard/toolflash/
+├── .
+├── .
+|
+├── mymod/
+│   ├──  system/
+│   │
+│   ├──  config.sh
+│   │
+│   ├── custom.sh
+│   │
+│   ├── <your_post-fs-data_script_name>.sh
+│   │
+│   ├── <your_late_start_script_name>.sh
+├── another_mod
+│   ├── .
+│   └── .
+├── .
+├── .
+
 
 ```
 
