@@ -216,6 +216,8 @@ VphoneGaga (Read-only system)
 
 Always update!!!
 
+v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (Replace `/system` files while the VM is running will caused some bugs).
+
 v1.13: Add Support for running script on `late_start` and `post-fs-data`.
 
 v1.12: New function: `Mount real storage`. Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
