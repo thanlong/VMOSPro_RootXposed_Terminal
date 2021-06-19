@@ -15,7 +15,7 @@ This post will guide you how to root and install Xposed Framework on VM which is
  6. Type command: `chmod 777 /system/xbin/*` (set command to be executable!)
  7. Type `tool` command to open Tool
 
-<img src="https://i.imgur.com/kRuEqPJ.png" />
+<img src="https://i.imgur.com/fQlu8JL.png" />
 
  8. Type `root` command to root or unroot
 
