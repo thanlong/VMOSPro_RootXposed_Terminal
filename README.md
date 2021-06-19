@@ -112,7 +112,7 @@ VMOS Tools module installation are summarized as follows:
 
 Stage 1: Execute `config.sh` script
 
-Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, instead of placing files to `/system` during installation, modification of `/system` will be stored temporarily and it will apply `/system` changes only after reboot.
+Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, instead of placing files to `/system` during installation, modifications of `/system` will be stored temporarily in `/data/adb/.boot/system` and it will apply `/system` changes only after reboot.
 
 Stage 3: Execute `custom.sh` script
 
