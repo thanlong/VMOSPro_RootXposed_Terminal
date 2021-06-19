@@ -43,11 +43,11 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
 
 2. Xposed Framework
 
-3. Busybox
+3. Busybox: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
 4. Wipe dalvik-cache
 
-5. VMOS Props Config: Change VMOS property without reboot.
+5. VMOS Props Config: Change VMOS property (GPU, IMEI) without reboot.
 
 6. Install modifications ([VMOS Tool module](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18))
 
