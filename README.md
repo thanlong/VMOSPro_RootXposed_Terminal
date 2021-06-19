@@ -79,10 +79,12 @@ Try to shut down and restart the VM.
 
 ### Superuser crash, lost root after reboot?
 
-
 This issue appears on VMOS Pro Global
 
 VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: After root and reboot, if you have Superuser crashed, you can open Terminal, type `root` then type `1` to change superuser package.
+
+**NEW: Completely bypass "`su` command is automatically deleted" on non-GEEK ROM!!!**
+
 
 ## How does rooting VM work?
 
