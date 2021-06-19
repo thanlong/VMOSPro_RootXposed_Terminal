@@ -58,7 +58,7 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
 
 
 ### Why can I add files to `/` path in VMOS?
-System partition in vmos is read-write.
+System partition in vmos is read-write with user permission.
 So i can add files to `/` without root.
 
 ### Does VMOS support Magisk or SuperSU?
