@@ -49,7 +49,7 @@ My GEEK ROM have Terminal Tool v1.8 pre-installed:
 
 5. VMOS Props Config: Change VMOS property without reboot.
 
-6. Install modifications (VMOS Tool module)
+6. Install modifications ([VMOS Tool module](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18))
 
 7. Mount real storage: Mount your device storage to `/sdcard/real_storage` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
 
@@ -83,7 +83,7 @@ This issue appears on VMOS Pro Global
 
 VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: After root and reboot, if you have Superuser crashed, you can open Terminal, type `root` then type `1` to change superuser package.
 
-## How does it work?
+## How does rooting VM work?
 
 This tool simply does these jobs.
 
@@ -91,7 +91,7 @@ Root: Push `su` binary to `/system/xbin` so that it can grant root permission to
 
 Xposed: Run script to replace some files in system include `app_process`
 
-Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks.
+Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks. Almost mods work on rooted devices need Busybox.
 
 Uninstall: Delete and restore files
 
