@@ -102,19 +102,17 @@ Uninstall: Delete and restore files
 
 ### About
 
-VMOS Tool module (plugin) is folder placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
+VMOS Tool module (modification) is folder placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
 
 VMOS Tool allows you to modify system in VM with simplest way!
 
 It's simply change `/system` files and execute script.
 
-When you install a module, VMOS Tool will execute `config.sh` first.  If you list folders and files in `REMOVE_LIST`, VMOS Tool will delete these folders and files.  Then, if `IGNORE_PLACE` is set to false, VMOS Tool will copy all the files in the `system` directory to the `/system` directory.  Finally, the VMOS Tool will execute `custom.sh` if it is existed.
-
 VMOS Tools module installation are summarized as follows:
 
 Stage 1: Execute `config.sh` script
 
-Stage 2: Copy files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, system will be touched only after reboot.
+Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, instead of placing files to `/system` during installation, modification of `/system` will be stored temporarily and it will apply `/system` changes only after reboot.
 
 Stage 3: Execute `custom.sh` script
 
