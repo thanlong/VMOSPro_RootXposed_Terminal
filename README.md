@@ -221,7 +221,8 @@ VphoneGaga (Read-only system)
 
 Always update!!!
 
-v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. Completely bypass "`su` command is automatically deleted" on non-GEEK ROM.
+v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. 
+**Completely bypass "`su` command is automatically deleted" on non-GEEK ROM!!!**
 
 v1.13: Add Support for running script on `late_start` and `post-fs-data`.
 
