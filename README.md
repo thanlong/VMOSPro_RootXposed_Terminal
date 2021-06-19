@@ -148,7 +148,7 @@ You can make a module / modification by youself and it is easy!
 
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
-Variables in `config.sh`:
+Configure variables in `config.sh`:
 
 ```
 # List folders and files here if you want to remove, this will overwrite values above!
@@ -174,6 +174,9 @@ LATESTART=<your_late_start_script_name>.sh
 # Set to true if you want to apply changes (replace or remove some files /system) only after boot 
 
 APPLY_ON_BOOT=false
+
+### YOUR SCRIPT
+echo "- Mod by HuskyDG"
 
 ```
 
