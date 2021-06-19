@@ -79,6 +79,7 @@ Try to shut down and restart the VM.
 
 ### Superuser crash, lost root after reboot?
 
+
 This issue appears on VMOS Pro Global
 
 VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: After root and reboot, if you have Superuser crashed, you can open Terminal, type `root` then type `1` to change superuser package.
@@ -220,7 +221,7 @@ VphoneGaga (Read-only system)
 
 Always update!!!
 
-v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs.
+v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. Completely bypass "`su` command is automatically deleted" on non-GEEK ROM.
 
 v1.13: Add Support for running script on `late_start` and `post-fs-data`.
 
