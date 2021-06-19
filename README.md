@@ -90,7 +90,7 @@ VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root 
 
 This tool simply does these jobs.
 
-Root: Push `su` binary to `/system/xbin` so that it can grant root permission to any app that call `su` command. 
+Root: Push `su` binary to `/system/xbin` and launch daemon by `/system/xbin/su --daemon` command so that it can grant root permission to any app that call `su` command. 
 
 Xposed: Run script to replace some files in system include `app_process`
 
