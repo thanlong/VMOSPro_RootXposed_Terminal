@@ -56,6 +56,10 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
 8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
 
+### Benefits
+
+Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can unroot the VM.
+
 
 ### Why can I add files to `/` path in VMOS?
 System partition in vmos is read-write with user permission.
