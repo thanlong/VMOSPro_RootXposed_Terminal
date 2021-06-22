@@ -11,7 +11,7 @@ This post will guide you how to root and install Xposed Framework on VM which is
 
  1. Download VMOS Pro Terminal Tool zip
  2. Import zip to VMOS Pro
- 3. Extract zip then usse MT file manager and execute `config.sh` script or use any file manager app to copy `system` folder inside zip files to root path `/`. Apply overwrite
+ 3. Extract zip then use MT file manager and execute `config.sh` script or use any file manager app to copy `system` folder inside zip files to root path `/`. Apply overwrite
  5. Then open Terminal Emulator or Material Terminal (available on Play Store)
  6. Type command: `chmod 777 /system/xbin/*` (set command to be executable!)
  7. Type `tool` command to open Tool
