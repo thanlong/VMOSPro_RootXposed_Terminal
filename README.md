@@ -211,15 +211,21 @@ echo "- Mod by HuskyDG"
 
 Virtual machine with Read-write `/system`
 
-VMOS Pro: Android 7.1, 5.1 and 4.4
+VMOS Pro Chinese & Global: Android 7.1.2, 5.1.1 and 4.4.4
 
-VMOS: Android 5.1
+VMOS Pro from Google Play Store: Android 7.1.2
+
+VMOS old version: Android 5.1.1
+
+F1VM & X8 Sandbox: Maybe?
+
+Virtual Android: You are not able to root this VM because `daemonsu` can't launch.
 
 ### Not supported
 
-F1VM Lite (Read-only system)
+F1VM Lite from Google Play Store (Read-only system): You are not able to change any thing in `/system`.
 
-VphoneGaga (Read-only system)
+VphoneGaga (Read-only system): You are not able to change any thing in `/system` even you granted root access.
 
 ## Download
 
