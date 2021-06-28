@@ -58,7 +58,8 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
 8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
 9. Use external storage as VM storage. 
-   Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.  This feature will be very useful when you want to install a game with an obb file but you run out of internal memory. Data will not be lost during after converting
+   Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.  This feature will be very useful when you want to install a game with an obb file but you run out of internal memory. Data will not be lost during after converting.
+   You can convert back to internal storage at any time.
 
 ### Benefits
 
