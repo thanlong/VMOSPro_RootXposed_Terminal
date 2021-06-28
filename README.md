@@ -61,6 +61,9 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
    Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.  This feature will be very useful when you want to install a game with an obb file but you run out of internal memory. Data will not be lost during after converting.
    You can convert back to internal storage at any time.
 
+10. Install app into external storage (Coming soon)
+
+
 ### Benefits
 
 Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can unroot the VM.
@@ -239,7 +242,7 @@ VphoneGaga (Read-only system): You are not able to change any thing in `/system`
 
 Always update!!!
 
-v1.15: New function: `Use external storage as VM storage`. Expand your VM storage by using memory SD card capacity as the virtual machine's `/sdcard` internal memory.  This feature will be very useful when you want to install a game with an obb file but you run out of internal memory. While convert
+v1.15: New function: `Use external storage as VM storage`. 
 
 v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. 
 **Completely fixed "`su` command is automatically deleted" on non-GEEK ROM!!!**
