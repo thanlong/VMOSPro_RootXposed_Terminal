@@ -57,6 +57,7 @@ My GEEK ROM have Terminal Tool v1.14 pre-installed:
 
 8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
+9. Use external storage as VM storage
 
 ### Benefits
 
@@ -235,6 +236,8 @@ VphoneGaga (Read-only system): You are not able to change any thing in `/system`
 ## Changelogs
 
 Always update!!!
+
+v1.15: New function: `Use external storage as VM storage`.
 
 v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. 
 **Completely fixed "`su` command is automatically deleted" on non-GEEK ROM!!!**
