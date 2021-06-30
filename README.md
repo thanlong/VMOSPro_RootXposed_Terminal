@@ -204,15 +204,9 @@ echo "- Mod by HuskyDG"
 
 1. Install VMOS Pro Terminal Tool v1.8+ if it's not installed!
 
-2. Download `<custom_name>.zip` and import file to VMOS Pro
+2. Put your mod `.zip` file into `/sdcard/toolflash/` (no need to unzip file)
 
-3. Extract `<custom_name>.zip` to `<custom_name>` folder
-
-4. Copy `<custom_name>` folder to `/sdcard/toolflash/`
-
-5. Open Terminal app, type `tool` to run VMOS Pro Terminal Tool, then type `6` (Enter) and `yes` (Enter) to install module.
-
-`<custom_name>` is optional name and should include `abc123-_.` characters only.
+3. Open Terminal app, type `tool` to run VMOS Pro Terminal Tool, then type `6` (Enter) and `yes` (Enter) to install module.
 
 ## Supported VM & Android version
 ### Supported
