@@ -202,9 +202,9 @@ echo "- Mod by HuskyDG"
 ### How to install a module?
 
 
-1. Install VMOS Pro Terminal Tool v1.8+ if it's not installed!
+1. Install VMOS Pro Terminal Tool v1.15+ if it's not installed!
 
-2. Put your mod `.zip` file into `/sdcard/toolflash/` (no need to unzip file)
+2. Place your mod `.zip` file at `/sdcard/toolflash/` (no need to unzip file)
 
 3. Open Terminal app, type `tool` to run VMOS Pro Terminal Tool, then type `6` (Enter) and `yes` (Enter) to install module.
 
@@ -238,7 +238,7 @@ VphoneGaga (Read-only system): You are not able to change any thing in `/system`
 
 Always update!!!
 
-v1.15: New function: `Use external storage as VM storage`. 
+v1.15: New function: `Use external storage as VM storage`.
 
 v1.14: All changes (root, xposed, modifications with `APPLY_ON_BOOT=true`) now will take effect only when you shut down and restart the VM (execute on `post-fs-data`). Replace some `/system` files while the VM is running will caused some bugs. 
 **Completely fixed "`su` command is automatically deleted" on non-GEEK ROM!!!**
