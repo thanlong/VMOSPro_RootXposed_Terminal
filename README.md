@@ -120,8 +120,6 @@ VMOS Tool module (modification) is folder placed in `/sdcard/toolflash`. It incl
 
 VMOS Tool allows you to modify system in VM with simplest way!
 
-It's simply change `/system` files and execute script.
-
 VMOS Tools module installation are summarized as follows:
 
 Stage 1: Execute `config.sh` script
@@ -131,6 +129,8 @@ Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=t
 Stage 3: Execute `custom.sh` script
 
 You can make a module / modification by youself and it is easy!
+Download template here: https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true
+
 
 ```
 /sdcard/toolflash/
