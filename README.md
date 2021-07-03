@@ -129,7 +129,7 @@ Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=t
 Stage 3: Execute `custom.sh` script
 
 You can make a module / modification by youself and it is easy!
-Download template here: https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true
+Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true)
 
 
 ```
