@@ -137,7 +137,7 @@ Download template here: https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/b
 ├── .
 ├── .
 |
-├── mymod/
+├── mymod.zip
 │   ├── system/  #files in this folder will be added to /system
 │   │
 │   ├── config.sh   #script will be executed on the beginning
@@ -149,7 +149,7 @@ Download template here: https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/b
 │   ├── <your_late_start_script_name>.sh
 │
 │ 
-├── another_mod
+├── another_mod.zip
 │   ├── .
 │   └── .
 ├── .
@@ -201,12 +201,13 @@ echo "- Mod by HuskyDG"
 
 ### How to install a module?
 
+No need to extract zip file to `/sdcard/toolflash/` anymore!
 
-1. Install VMOS Pro Terminal Tool v1.15+ if it's not installed!
+1. Need VMOS Pro Terminal Tool v1.15+
 
-2. Place your mod `.zip` file at `/sdcard/toolflash/` (no need to unzip file)
+2. Place your mod `.zip` file at `/sdcard/toolflash/`
 
-3. Open Terminal app, type `tool` to run VMOS Pro Terminal Tool, then type `6` (Enter) and `yes` (Enter) to install module.
+3. Open Terminal app, type `tool` then `6` (Enter) and `yes` (Enter) to install mods.
 
 ## Supported VM & Android version
 ### Supported
