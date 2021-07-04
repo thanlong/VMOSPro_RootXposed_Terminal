@@ -5,7 +5,7 @@
 
 Root and Xposed is the Paid features of VMOS Pro. I hate having to purchase to get Root/Xposed, so I make a Terminal script instead and it is very easy to use!
 
-This post will guide you how to root and install Xposed Framework on VM which is not GEEK ROM, so you needn't pay VIP service fee for VMOS or download another rooted ROM.  Not only root and install xposed but also unroot, uninstall xposed on any ROM and other features!
+**If your love VMOS Dev's work, you can pay monthly and yearly VIP. It's big effort so they can serve you with better experience**
 
 ## Installation
 
@@ -43,7 +43,7 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 1. Superuser/Root: Root, remove root and check su binary.
 
-2. Xposed Framework
+2. Xposed Framework: Easy to install Xposed and uninstall it.
 
 3. Busybox: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
@@ -68,7 +68,7 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 ### Benefits
 
-Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can unroot the VM.
+Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can un-root the VM easily.
 
 
 ### Why can I add files to `/` path in VMOS?
@@ -95,10 +95,9 @@ Try to shut down and restart the VM.
 
 This issue appears on VMOS Pro Global
 
-VMOS Dev may add some "sort of anti-piracy" to prevent you from installing root on non-Rooted ROM. This can be fixed by change root package: After root and reboot, if you have Superuser crashed, you can open Terminal, type `root` then type `1` to change superuser package.
+It won't allow you to use root if you are on free virtual machine.
 
-**NEW: Completely fixed "`su` command is automatically deleted" on non-GEEK ROM!!!**
-
+Fix: Change root package
 
 ## How does rooting VM work?
 
