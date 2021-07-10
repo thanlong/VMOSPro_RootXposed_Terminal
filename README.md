@@ -225,3 +225,9 @@ Virtual Android: You are not able to root this VM because `daemonsu` can't launc
 
 F1VM, X8 Sandbox, VphoneGaga (Read-only system): You are not able to change any thing in `/system` even you granted root access.
 
+
+## Download
+
+
+[VMOSTOOL_Root_Xposed_(Terminal).zip](http://link1s.com/W2GN7)
+
