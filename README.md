@@ -63,7 +63,7 @@ My GEEK ROM have Terminal Tool pre-installed:
    You can convert back to internal storage at any time.
    Don't worry! Data stored in memory card **won't** be lost during swapping
 
-10. Install app into external storage (Coming soon)
+10. Dual space: Two space on one virtual machine
 
 
 ### Benefits
