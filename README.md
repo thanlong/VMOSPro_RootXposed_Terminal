@@ -41,29 +41,28 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 ### Functions
 
-1. Superuser/Root: Root, remove root and check su binary.
+1. **SU Helper** Allow user to enable/disable root access.
 
-2. Xposed Framework: Easy to install Xposed and uninstall it.
+2. **Xposed Framework**: Allow user to enable/disable Xposed Framework.
 
-3. Busybox: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
+3. **Busybox**: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
-4. Wipe dalvik-cache
+4. **Wipe dalvik-cache**
 
-5. VMOS Props Config: Change VMOS property (GPU, IMEI) without reboot.
+5. **VMOS Props Config**: Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
 
-6. Install modifications ([VMOS Tool module](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18))
+6. **Install modifications** ([VMOS Tool module](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18))
 
-7. Mount real storage: Mount your device storage to `/sdcard/real_storage` or `/local_disk` in VMOS Pro so you can access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
+7. **Mount real storage**: Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
 
 8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
-9. Use external storage as VM storage. 
-   Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory (without formatting).
+9. **Use external SD Card as VM storage. 
+   Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.
    This feature will be very useful when you want to install a game with an obb file but you run out of internal memory.
-   You can convert back to internal storage at any time.
-   Don't worry! Data stored in memory card **won't** be lost during swapping
-
-10. Dual space: Two space on one virtual machine
+   You can revert back to internal storage at any time.
+   
+10. **Dual space**: Two independent space on one virtual machine.
 
 
 ### Benefits
