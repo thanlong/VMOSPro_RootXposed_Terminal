@@ -62,8 +62,7 @@ My GEEK ROM have Terminal Tool pre-installed:
    This feature will be very useful when you want to install a game with an obb file but you run out of internal memory.
    You can revert back to internal storage at any time.
    
-10. **Dual space**: Two independent space on one virtual machine.
-
+10. **Dual space**: Create second space, switch between two space easily. Two independent space on one virtual space.
 
 ### Benefits
 
