@@ -113,7 +113,7 @@ Uninstall: Delete and restore files
 
 ### About
 
-VMOS Tool module (modification) is folder placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
+VMOS Tool module (modification) is modification zip placed in `/sdcard/toolflash`. It include `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
 
 VMOS Tool allows you to modify system in VM with simplest way!
 
