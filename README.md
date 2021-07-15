@@ -47,7 +47,7 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 3. **Busybox**: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
-4. **Wipe dalvik-cache**
+4. **Wipe dalvik-cache**: Want to free up youspace ory space temporary? Use this option.
 
 5. **VMOS Props Config**: Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
 
@@ -62,7 +62,7 @@ My GEEK ROM have Terminal Tool pre-installed:
    This feature will be very useful when you want to install a game with an obb file but you run out of internal memory.
    You can revert back to internal storage at any time.
    
-10. **Dual space**: Create second space, switch between two space easily. Two independent space on one virtual space.
+10. **Dual space**: Create second space, switch between two space easily. Two independent space on one virtual space. You can clear data on dual space.
 
 ### Benefits
 
