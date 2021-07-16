@@ -119,14 +119,6 @@ VMOS Tool module (modification) is modification zip including `system` folder, `
 
 With modification zip, you can apply system changes simply!
 
-VMOS Tools module installation are summarized as follows:
-
-Stage 1: Execute `config.sh` script
-
-Stage 2: Place files to `/system` when `IGNORE_PLACE=false`. If `APPLY_ON_BOOT=true`, instead of placing files to `/system` during installation, modifications of `/system` will be stored temporarily in `/data/adb/.boot/system` and it will apply `/system` changes only after reboot.
-
-Stage 3: Execute `custom.sh` script
-
 You can make a module / modification by youself and it is easy!
 Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true)
 
