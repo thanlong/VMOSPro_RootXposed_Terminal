@@ -88,8 +88,8 @@ Magisk on VMOS project: https://github.com/HuskyDG/Magisk-on-VMOS
 ### Root installed but cannot grant root access
 
 This maybe because daemon su is not running.
-Type `getprop init.svc.daemonsu` to check daemonsu. Make sure `init.svc.daemonsu` is `running`, not `stopped` or `restart`.
-Try to shut down and restart the VM.
+Root status should be `running`, not `stopped` or `restarting`.
+Run `root` command to check root status.
 
 ### Superuser crash, lost root after reboot?
 
