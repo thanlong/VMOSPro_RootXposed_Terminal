@@ -117,10 +117,13 @@ Uninstall: Delete and restore files
 
 VMOS Tool module (modification) is modification zip including `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
 
-With modification zip, you can apply system changes simply!
+With modification zip, you can apply system changes simply (like a flashable recovery zip).
+
+### Create mods
 
 You can make a module / modification by youself and it is easy!
 Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true)
+
 
 
 ```
@@ -149,7 +152,9 @@ Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/
 
 ```
 
+Extract template file.
 
+Place your files that you want to replace in `/system` in `system` folder.
 
 `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
@@ -185,10 +190,9 @@ echo "- Mod by HuskyDG"
 
 ```
 
-`system` folder include files and folders that will write to `/system`
-
 `custom.sh` is a script which is executed after `config.sh`.
 
+Finally, unzip all files and folders into a zip file.
 
 ### How to install a module?
 
