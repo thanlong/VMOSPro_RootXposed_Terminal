@@ -186,13 +186,14 @@ LATESTART=<your_late_start_script_name>.sh
 APPLY_ON_BOOT=false
 
 ### YOUR SCRIPT
+# Write your script here ...
 echo "- Mod by HuskyDG"
 
 ```
 
 `custom.sh` is a script which is executed after `config.sh`.
 
-Finally, unzip all files and folders into a zip file.
+Finally, compress all files and folders into a zip file.
 
 ### How to install a module?
 
