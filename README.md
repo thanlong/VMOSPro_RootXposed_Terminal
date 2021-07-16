@@ -88,7 +88,10 @@ Magisk on VMOS project: https://github.com/HuskyDG/Magisk-on-VMOS
 ### Root installed but cannot grant root access
 
 This maybe because daemon su is not running.
-Root status should be `running`, not `stopped` or `restarting`.
+
+<img src=https://i.imgur.com/RSGtxK7.jpg/>
+
+Root status must be `running`, not `stopped` or `restarting`.
 Run `root` command to check root status.
 
 ### Superuser crash, lost root after reboot?
