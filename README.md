@@ -70,6 +70,7 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can un-root the VM easily.
 
+## FAQ
 
 ### Why can I add files to `/` path in VMOS?
 System partition in vmos is read-write with user permission.
@@ -85,22 +86,25 @@ VMOS may support Magisk in the future.
 
 Magisk on VMOS project: https://github.com/HuskyDG/Magisk-on-VMOS
 
+
 ### Root installed but cannot grant root access
 
-This maybe because daemon su is not running.
+This maybe because **daemon su process** is **not running** as **ROOT**.
 
 <img src=https://i.imgur.com/RSGtxK7.jpg/>
 
 Root status must be `running`, not `stopped` or `restarting`.
 Run `root` command to check root status.
 
-### Superuser crash, lost root after reboot?
+Fix: Shut down and restart your virtual machine. This can solve the problem.
+
+### Superuser app keeps crash or lost root after reboot?
 
 This issue appears on VMOS Pro Global
 
-It won't allow you to use root if you are on free virtual machine.
+It won't allow you to use root if you are on **free virtual machine**.
 
-Fix: Change root package
+Fix: Type `root` command then **Change root package**
 
 ## How does rooting VM work?
 
