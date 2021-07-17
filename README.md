@@ -64,7 +64,7 @@ My GEEK ROM have Terminal Tool pre-installed:
    
 10. **Dual space**: Create second space, switch between two space easily. Two independent space on one virtual space. You can clear data on dual space.
 
-<img src="https://i.imgur.com/b9SrvxQ.png"/>
+<img src="https://i.imgur.com/PjNnCqw.png"/>
 
 ### Benefits
 
