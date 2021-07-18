@@ -9,6 +9,8 @@ Root and Xposed is the Paid features of VMOS Pro. I hate having to purchase to g
 
 ## Installation
 
+Watch video: https://youtu.be/N8A183ELU3Y
+
  1. Download VMOS Pro Terminal Tool zip
  2. Import zip to VMOS Pro
  3. Extract zip then use MT file manager and execute `config.sh` script or use any file manager app to copy `system` folder inside zip files to root path `/`. Apply overwrite
