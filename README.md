@@ -70,6 +70,8 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 <img src="https://i.imgur.com/PjNnCqw.png"/>
 
+11. **Google Services**
+
 ### Benefits
 
 Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can un-root the VM easily.
