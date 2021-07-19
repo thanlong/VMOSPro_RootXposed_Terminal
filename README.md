@@ -214,9 +214,11 @@ No need to extract zip file to `/sdcard/toolflash/` anymore!
 
 1. Need VMOS Pro Terminal Tool v1.15+
 
-2. Place your mod `.zip` file at `/sdcard/toolflash/`
+v1.18 add **Flash a zip by path**
 
-3. Open Terminal app, type `tool` then `6` (Enter) and `yes` (Enter) to install mods.
+2. **Flash all zip in /sdcard/toolflash** Place your mod `.zip` file at `/sdcard/toolflash/`, open Terminal app, type `tool` command then `6` (Enter) and `1` (Enter) to install mods.
+
+3. **Flash a zip by path** Open Terminal app, type `tool` command then `6` (Enter) and `2` (Enter) then type your zip path (Example: `/sdcard/Download/mymod.zip`)
 
 ## Supported VM & Android version
 ### Supported
