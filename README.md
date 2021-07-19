@@ -70,7 +70,7 @@ My GEEK ROM have Terminal Tool pre-installed:
 
 <img src="https://i.imgur.com/PjNnCqw.png"/>
 
-11. **Google Services**
+11. **Google Services** Easy to install or uninstall Google Services
 
 ### Benefits
 
