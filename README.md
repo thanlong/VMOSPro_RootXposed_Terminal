@@ -106,23 +106,14 @@ Fix: Shut down and restart your virtual machine. This can solve the problem.
 
 ### Superuser app keeps crash or lost root after reboot?
 
+<img src="https://i.imgur.com/dsw2DfD.jpg"/>
+
 This issue appears on VMOS Pro Global
 
 It won't allow you to use root if you are on **free virtual machine**.
 
 Fix: Type `root` command then **Change root package**
 
-## How does rooting VM work?
-
-This tool simply does these jobs.
-
-Root: Push `su` binary to `/system/xbin` and launch daemon by `/system/xbin/su --daemon` command so that it can grant root permission to any app that call `su` command. 
-
-Xposed: Run script to replace some files in system include `app_process`
-
-Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks. Almost mods work on rooted devices need Busybox.
-
-Uninstall: Delete and restore files
 
 ## VMOS Tool modification zip (v1.8+)
 
