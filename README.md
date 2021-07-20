@@ -124,20 +124,21 @@ Busybox: Push `busybox` binary to `/system/xbin` and create applet symlinks. Alm
 
 Uninstall: Delete and restore files
 
-## VMOS Tool module (v1.8+)
+## VMOS Tool modification zip (v1.8+)
 
 ### About
 
-VMOS Tool module (modification) is modification zip including `system` folder, `config.sh` and `custom.sh`. Support `post-fs-data` and `late_start` script.
+Because VMOS Pro doesn't have Recovery mode, Modification zip is alternative way of flashable recovert zip which allows you to change system thing as you want.
 
-With modification zip, you can apply system changes simply (like a flashable recovery zip).
+You are recommended to make a modification zip instead of making custom ROM because it can import everything you need to add or remove into ROM.
+
 
 ### Create mods
 
-You can make a module / modification by youself and it is easy!
-Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true)
 
+1. Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/blob/main/template_toolflash_mod.zip?raw=true)
 
+2. Extract template file.
 
 ```
 /sdcard/toolflash/
@@ -165,11 +166,10 @@ Download template here: [template_toolflash_mod.zip](https://github.com/HuskyDG/
 
 ```
 
-Extract template file.
 
-Place your files that you want to replace in `/system` in `system` folder.
+3. Place your files that you want to replace in `/system` in `system` folder.
 
-`config.sh` (must have) is a script which is executed before `/system` is being writed.
+4. `config.sh` (must have) is a script which is executed before `/system` is being writed.
 
 Configure variables in `config.sh`:
 
@@ -204,9 +204,9 @@ echo "- Mod by HuskyDG"
 
 ```
 
-`custom.sh` is a script which is executed after `config.sh`.
+5. `custom.sh` is a script which is executed after `config.sh`.
 
-Finally, compress all files and folders into a zip file.
+6. Finally, compress all files and folders into a zip file. Now you have a Modification zip, you can flash it to apply your changes into any virtual machine.
 
 ### How to install a module?
 
