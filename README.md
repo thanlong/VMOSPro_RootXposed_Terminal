@@ -128,7 +128,7 @@ Uninstall: Delete and restore files
 
 ### About
 
-Because VMOS Pro doesn't have Recovery mode, Modification zip is alternative way of flashable recovert zip which allows you to change system thing as you want.
+Because VMOS Pro doesn't have Recovery mode, Modification zip is alternative way of flashable recovery zip which allows you to apply changes into system as you want. Example: Change boot animation, remove some app, change system user interface,...
 
 You are recommended to make a modification zip instead of making custom ROM because it can import everything you need to add or remove into ROM.
 
