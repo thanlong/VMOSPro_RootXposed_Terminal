@@ -228,5 +228,5 @@ F1VM, X8 Sandbox, VphoneGaga (Read-only system): You are not able to change any 
 ## Download
 
 
-[vmostool.zip](http://link1s.com/W2GN7) (30MB)
+[vmostool.zip](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal/releases/) (30MB)
 
