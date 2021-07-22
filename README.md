@@ -25,48 +25,55 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 
 [HuskyDG/VMOSPro_ROM](https://github.com/HuskyDG/VMOSPro_ROM)
 
-### Functions
+## Functions
 
-1. **SU Helper**
+### **SU Helper**
+Install/uninstall root: add `su` binary to `/sbin` path or remove it
 
-  Install/uninstall root: add `su` binary to `/sbin` path or remove it
+Hide root access: `su` binary is hidden (deleted temporarily)
 
-  Hide root access: `su` binary is hidden (deleted temporarily)
+Change root package: change package of Superuser app and `su` binary.
 
-  Change root package: change package of Superuser app and `su` binary.
+Root checker: Check if `su` binary is working properly.
 
-  Root checker: Check if `su` binary is working properly.
+### **Xposed Framework**
 
-2. **Xposed Framework**: Allow user to enable/disable Xposed Framework.
+Allow user to enable/disable Xposed Framework.
 
-3. **Busybox**: Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
+### **Busybox**
+Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
-4. **Wipe dalvik-cache**: Want to free up your memory space temporary? Use this option.
+### **Wipe dalvik-cache**
+Want to free up your memory space temporary? Use this option.
 
-5. **VMOS Props Config**: Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
+###**VMOS Props Config**
 
-6. **Install modifications** ([VMOS Tool module](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18))
+Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
 
-7. **Mount real storage**: Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
+### **Install modifications** 
+[See "VMOS Tool modification"](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18)
 
-8. Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
+### **Mount real storage**
+Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
 
-9. **Use external SD Card as VM storage** or we call **Use sd card as internal storage**
-   Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.
-   This feature will be very useful when you want to install a game with an obb file but you run out of internal memory.
-   You can revert back to internal storage at any time.
+### **Init script**
+Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
+
+### **Use external SD Card as VM storage**
+Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.
+You can revert back to internal storage at any time.
    
 <img src="https://i.imgur.com/OQZydzV.png"/>
 
-10. **Dual space**: Create second space, switch between two space easily. Two independent space on one virtual space. You can clear data on dual space.
+### **Dual space**
+Create second space, switch between two space easily. Two independent space on one virtual space. You can clear data on dual space.
 
 <img src="https://i.imgur.com/PjNnCqw.png"/>
 
-11. **Google Services** Easy to install or uninstall Google Services
+### **Google Services** 
 
-### Benefits
+Easy to install or uninstall Google Services
 
-Root your virtual machine without paying for VMOS Pro VIP. You don't need to download other rooted ROM. And you can un-root the VM easily.
 
 ## FAQ
 
