@@ -51,7 +51,7 @@ Want to free up your memory space temporary? Use this option.
 Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
 
 ### **Install modifications** 
-[See "VMOS Tool modification"](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-module-v18)
+[See "VMOS Tool modification"](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-modification-zip-v18)
 
 ### **Mount real storage**
 Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
