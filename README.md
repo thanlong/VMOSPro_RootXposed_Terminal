@@ -46,7 +46,7 @@ Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system
 ### **Wipe dalvik-cache**
 Want to free up your memory space temporary? Use this option.
 
-###**VMOS Props Config**
+### **VMOS Props Config**
 
 Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
 
