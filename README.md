@@ -27,7 +27,15 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 
 ### Functions
 
-1. **SU Helper**: Allow user to enable/disable root access.
+1. **SU Helper**
+
+  Install/uninstall root: add `su` binary to `/sbin` path or remove it
+
+  Hide root access: `su` binary is hidden (deleted temporarily)
+
+  Change root package: change package of Superuser app and `su` binary.
+
+  Root checker: Check if `su` binary is working properly.
 
 2. **Xposed Framework**: Allow user to enable/disable Xposed Framework.
 
