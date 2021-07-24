@@ -28,7 +28,7 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 ## Functions
 
 ### **SU Helper**
-Install/uninstall root: add `su` binary to `/sbin` path or remove it
+Install/uninstall root: Tool can help you to root or unroot your VM. Support rooting Android 4.4 ROM VM.
 
 Hide root access: `su` binary is hidden (deleted temporarily)
 
@@ -37,14 +37,13 @@ Change root package: change package of Superuser app and `su` binary.
 Root checker: Check if `su` binary is working properly.
 
 ### **Xposed Framework**
-
-Allow user to enable/disable Xposed Framework.
+Tool can help you to install or uninstall Xposed Framework on VM.
 
 ### **Busybox**
 Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
 
 ### **Wipe dalvik-cache**
-Want to free up your memory space temporary? Use this option.
+Free up your memory space temporarily, note that the next boot will take long time.
 
 ### **VMOS Props Config**
 
