@@ -1,11 +1,9 @@
-## Why did I write this script?
+## About
 
 <a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.imgur.com/LDSRrFt.png"/></a>
 
 
-Root and Xposed is the Paid features of VMOS Pro. I hate having to purchase to get Root/Xposed, so I make a Terminal script instead and it is very easy to use!
-
-**If your love VMOS Dev's work, you can pay monthly and yearly VIP. It's big effort so they can serve you with better experience**
+A simple scripting tool that gives you useful features. Add or remove Root and Xposed Framework, Busybox, etc. without paying for VMOS Pro VIP 😎
 
 ## Installation
 
