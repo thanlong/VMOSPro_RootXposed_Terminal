@@ -37,7 +37,7 @@ Because `/system` is locked at Read-only on VMOS Pro v1.3.1, your cannot copy/mo
  - Android 5.1.1, `init.rc` is in `init_tool/5.1`
 
  6. Copy `tool_files` into your ROM file
- 7. Recovery your ROM and Tool will be insfileed!
+ 7. Recovery your ROM and Tool will be installeed!
 
 ### ROM with VMOSTool
 
