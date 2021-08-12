@@ -22,7 +22,7 @@ NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked 
 
 <img src="https://i.imgur.com/O8NQvMl.png" />
 
-### VMOS Pro Chinese v1.3.1
+### VMOS Pro Chinese v1.3.1 - above
 
 Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and avove, your cannot copy/move anything to `/system` without Root access.
 
