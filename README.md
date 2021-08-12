@@ -18,8 +18,7 @@ Watch video: https://youtu.be/N8A183ELU3Y
  6. Type command: `chmod 777 /system/xbin/*` (set command to be executable, do this once)
  7. Type `tool` command to open Tool
 
-NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly you cannot modified it anymore. Don't worry, I am working on it...
-
+NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly you cannot modified it without Root access
 
 <img src="https://i.imgur.com/O8NQvMl.png" />
 
@@ -254,4 +253,4 @@ F1VM, X8 Sandbox, VphoneGaga (Read-only system): You are not able to change any 
 
 Download tool from [MEGA](http://link1s.com/W2GN7) or [Mediafire](http://link1s.com/VMOSTool)
 
-NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly you cannot modified it anymore. Don't worry, I am working on it...
+NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly you cannot modified it without Root access
