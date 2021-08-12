@@ -224,6 +224,7 @@ Virtual Android: You are not able to root this VM because `daemonsu` can't launc
 
 F1VM, X8 Sandbox, VphoneGaga (Read-only system): You are not able to change any thing in `/system` even you granted root access.
 
+NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly :((
 
 ## Download
 
