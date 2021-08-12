@@ -11,7 +11,7 @@ A simple scripting tool that gives you useful features. Add or remove Root and X
 
 Watch video: https://youtu.be/N8A183ELU3Y
 
- 1. Download VMOS Pro Terminal Tool zip
+ 1. Download `vmostool.zip`
  2. Import zip to VMOS Pro
  3. Extract zip then use any file manager app to copy `system` folder inside zip files to root path `/`. Apply overwrite
  5. Then open any Terminal app (available on Play Store)
@@ -25,8 +25,20 @@ NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked 
 
 ### VMOS Pro Chinese v1.3.1
 
-...
+Because `/system` is locked at Read-only on VMOS Pro v1.3.1, your cannot copy/move anything to `/system` without Root access.
 
+ 1. Download `vmostool_systemless.zip` (Systemless version)
+ 2. Back up your ROM, after that you can find it at `/sdcard/vmospro/backup`
+ 3. Download Zarchiver if you don't have. Zarchiver allows you to modified zip file without extracting it
+ 4. Extract `vmostool_systemless.zip` to folder
+ 5. Find `init.rc` in `init_tool/<android_version>` of the folder you have just extracted and Copy `init.rc` into your ROM file (Don't extract the ROM file zip)
+ 
+ - Android 7.1.2 64bit, `init.rc` is in `init_tool/7.1_64`
+ - Android 7.1.2 32bit, `init.rc` is in `init_tool/7.1`
+ - Android 5.1.1, `init.rc` is in `init_tool/5.1`
+
+ 6. Copy `tool_files` into your ROM file
+ 7. Recovery your ROM and Tool will be insfileed!
 
 ### ROM with VMOSTool
 
