@@ -7,6 +7,8 @@ A simple scripting tool that gives you useful features. Add or remove Root and X
 
 ## Installation
 
+### VMOS Pro Chinese v1.0.0 - v1.2.3
+
 Watch video: https://youtu.be/N8A183ELU3Y
 
  1. Download VMOS Pro Terminal Tool zip
@@ -16,8 +18,17 @@ Watch video: https://youtu.be/N8A183ELU3Y
  6. Type command: `chmod 777 /system/xbin/*` (set command to be executable, do this once)
  7. Type `tool` command to open Tool
 
+NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked at Read-only. Sadly you cannot modified it anymore. Don't worry, I am working on it...
+
+
 <img src="https://i.imgur.com/O8NQvMl.png" />
 
+### VMOS Pro Chinese v1.3.1
+
+...
+
+
+### ROM with VMOSTool
 
 Download my GEEK ROM with Terminal Tool pre-installed:
 
