@@ -212,7 +212,9 @@ v1.18 add **Flash a zip by path**
 
 Virtual machine with Read-write `/system`
 
-VMOS Pro Chinese & Global: Android 7.1.2, 5.1.1 and 4.4.4
+VMOS Pro Chinese v1.0.0 - v1.2.3
+
+VMOS Pro Global
 
 VMOS Pro from Google Play Store: Android 7.1.2
 
