@@ -30,7 +30,7 @@ Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and avove, your
  2. Back up your ROM, after that you can find it at `/sdcard/vmospro/backup`
  3. Download Zarchiver if you don't have. Zarchiver allows you to modified zip file without extracting it
  4. Extract `vmostool_systemless.zip` to folder
- 5. Find `init.rc` in `tool_init/<android_version>` of the folder you have just extracted and Copy `init.rc` into your ROM file (Don't extract the ROM file zip)
+ 5. Find `init.rc` according to your ROM in `tool_init/<android_version>` of the folder you have just extracted and Copy `init.rc` into your ROM file (Don't extract the ROM file zip)
  
  - Android 7.1.2 64bit, `init.rc` is in `tool_init/7.1_64`
  - Android 7.1.2 32bit, `init.rc` is in `tool_init/7.1`
