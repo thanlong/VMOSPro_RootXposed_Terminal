@@ -94,45 +94,6 @@ Create second space, switch between two space easily. Two independent space on o
 Easy to install or uninstall Google Services
 
 
-## FAQ
-
-### Why can I add files to `/` path in VMOS?
-System partition in vmos is read-write with user permission.
-So i can add files to `/` without root.
-
-### Does VMOS support Magisk or SuperSU?
-
-Only supports Superuser by Koush root, does not support Magisk or SuperSU.
-
-VMOS currently doesn't supported Magisk because it doesn't have `boot.img` and recovery mode. Also VMOS cannot run `magiskinit` when replacing `init`.
-
-VMOS may support Magisk in the future.
-
-Magisk on VMOS project: https://github.com/HuskyDG/Magisk-on-VMOS
-
-
-### Root installed but cannot grant root access
-
-This maybe because **daemon su process** is **not running** as **ROOT**.
-
-<img src=https://i.imgur.com/RSGtxK7.jpg/>
-
-Root status must be `running`, not `stopped` or `restarting`.
-Run `root` command to check root status.
-
-Fix: Shut down and restart your virtual machine. This can solve the problem.
-
-### Superuser app keeps crash or lost root after reboot?
-
-<img src="https://i.imgur.com/dsw2DfD.jpg"/>
-
-This issue appears on VMOS Pro Global
-
-It won't allow you to use root if you are on **free virtual machine**.
-
-Fix: Type `root` command then **Change root package**
-
-
 ## VMOS Tool modification zip (v1.8+)
 
 ### About
