@@ -110,31 +110,7 @@ You are recommended to make a modification zip instead of making custom ROM beca
 
 2. Extract template file.
 
-```
-/sdcard/toolflash/
-├── .
-├── .
-|
-├── mymod.zip
-│   ├── system/  #files in this folder will be added to /system
-│   │
-│   ├── config.sh   #script will be executed on the beginning
-│   │
-│   ├── custom.sh   #script will be executed after config.sh
-│   │
-│   ├── <your_post-fs-data_script_name>.sh
-│   │
-│   ├── <your_late_start_script_name>.sh
-│
-│ 
-├── another_mod.zip
-│   ├── .
-│   └── .
-├── .
-├── .
-
-
-```
+<img src="https://i.imgur.com/Xs7TJBz.png"/>
 
 
 3. Place your files that you want to replace in `/system` in `system` folder.
