@@ -24,7 +24,7 @@ NOTE: From VMOS Pro Chinese version 1.3.1 and above, `/system` in ROM is locked 
 
 ### VMOS Pro Chinese v1.3.1 - above
 
-Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and avove, your cannot copy/move anything to `/system` without Root access.
+Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your cannot copy/move anything to `/system` without Root access.
 
  1. Download `vmostool_systemless.zip` (Systemless version)
  2. Back up your ROM, after that you can find it at `/sdcard/vmospro/backup`
