@@ -166,7 +166,9 @@ LATESTART=<your_late_start_script_name>.sh
 
 # Set to true if you want to apply changes (replace or remove some files /system) only after boot 
 
-APPLY_ON_BOOT=false
+# From Terminal Tool v1.20 and above, APPLY_ON_BOOT is always actived even you set to false
+
+APPLY_ON_BOOT=true
 
 ### YOUR SCRIPT
 # Write your script here ...
