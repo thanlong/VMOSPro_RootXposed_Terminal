@@ -5,6 +5,9 @@
 
 A simple scripting tool that gives you useful features. Add or remove Root and Xposed Framework, Busybox, etc. without paying for VMOS Pro VIP 😎
 
+<img src="https://i.imgur.com/Az9a6rH.jpg" width="70%"/>
+
+
 ## Installation
 
 ### VMOS Pro Chinese v1.0.0 - v1.2.3
@@ -19,7 +22,6 @@ Watch video: https://youtu.be/N8A183ELU3Y
  7. Type `tool` command to open Tool
 
 
-<img src="https://i.imgur.com/O8NQvMl.png" />
 
 ### VMOS Pro Chinese v1.3.1 - above
 
