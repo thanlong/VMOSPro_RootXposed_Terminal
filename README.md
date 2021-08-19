@@ -44,15 +44,7 @@ sh patch.sh
 
 Now, Terminal will start to patch your ROM. On your Terminal will like this:
 
-```
-generic:/ $ cd /sdcard/Download/vmostool_systemless
-generic:/sdcard/Download/vmostool_systemless $ sh patch.sh
-- VMOSTool Installer
-- Installing into "backup_ROM.zip"...
-- SDK version: 25
-- CPU ABI: arm64-v8a
-- Done!
-```
+<img src="https://i.imgur.com/RSd4QSj.jpg"/>
 
 
 After that you can recovery ROM and tool will be installed. Run `tool` command to open tool.
