@@ -27,19 +27,37 @@ Watch video: https://youtu.be/N8A183ELU3Y
 
 Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your cannot copy/move anything to `/system` without Root access.
 
- 1. Download `vmostool_systemless.zip` (Systemless version)
+ 1. Download `vmostool_systemless.zip` and extract it to `vmostool_systemless` folder
  2. Back up your ROM, after that you can find it at `/sdcard/vmospro/backup`
- 3. Download Zarchiver if you don't have. Zarchiver allows you to modified zip file without extracting it
- 4. Extract `vmostool_systemless.zip` to folder
- 5. Find `init.rc` according to your ROM in `tool_init/<android_version>` of the folder you have just extracted and Copy `init.rc` into your ROM file (Don't extract the ROM file zip)
+ 3. Notice about the path to `vmostool_systemless` folder
+
+    Example, I download `vmostool_systemless.zip` to `/sdcard/Download` folder and extract it to `/sdcard/Download/vmostool_systemless`. 
+    I have backup Android 7.1.2 64 bit ROM
+
+ 4. Run follow command in Terminal app (on your phone not virtual machine)
+
+```
+cd /sdcard/Download/vmostool_systemless
+sh patch.sh
+```
+
+Now, Terminal will start to patch your ROM. On your Terminal will like this:
+
+```
+generic:/ $ cd /sdcard/Download/vmostool_systemless
+generic:/sdcard/Download/vmostool_systemless $ sh patch.sh
+- VMOSTool Installer
+- Installing into "backup_ROM.zip"...
+- SDK version: 25
+- CPU ABI: arm64-v8a
+- Done!
+```
+
+
+After that you can recovery ROM and tool will be installed. Run `tool` command to open tool.
+    
+   
  
- - Android 7.1.2 64bit, `init.rc` is in `tool_init/7.1_64`
- - Android 7.1.2 32bit, `init.rc` is in `tool_init/7.1`
- - Android 5.1.1, `init.rc` is in `tool_init/5.1`
-
- 6. Copy `tool_files` into your ROM file (the root path of zip)
- 7. Recovery your ROM and Tool will be installed. Run tool by calling `tool` command.
-
 ### ROM with VMOSTool
 
 Download my GEEK ROM with Terminal Tool pre-installed:
