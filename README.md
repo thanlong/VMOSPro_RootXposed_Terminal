@@ -169,6 +169,13 @@ v1.18 add **Flash a zip by path**
 
 3. **Flash a zip by path** Open Terminal app, type `tool` command then `6` (Enter) and `2` (Enter) then type your zip path (Example: `/sdcard/Download/mymod.zip`)
 
+4. **Flash a zip by call command**
+
+```
+generic:/ $ . utils
+generic:/ $ install_mod path/to/zip
+```
+
 ## Supported VM & Android version
 ### Supported
 
