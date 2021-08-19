@@ -28,7 +28,8 @@ Watch video: https://youtu.be/N8A183ELU3Y
 Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your cannot copy/move anything to `/system` without Root access.
 
  1. Download `vmostool_systemless.zip` and extract it to `vmostool_systemless` folder
- 2. Back up your ROM, after that you can find it at `/sdcard/vmospro/backup`
+ 2. If you want to install tool into the installed virtual machine, back up your ROM, after that you can find it at `/sdcard/vmospro/backup`.
+    Place your ROM to `/sdcard/vmospro/backup`
  3. Notice about the path to `vmostool_systemless` folder
 
     Example, I download `vmostool_systemless.zip` to `/sdcard/Download` folder and extract it to `/sdcard/Download/vmostool_systemless`. 
