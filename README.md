@@ -36,7 +36,8 @@ Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your
     I have backup Android 7.1.2 64 bit ROM
 
  4. Run follow command in Terminal app (on your phone not virtual machine)
-
+    
+    Remember to grant Terminal app **Storage** permission
 ```
 cd /sdcard/Download/vmostool_systemless
 sh patch.sh
