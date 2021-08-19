@@ -79,10 +79,15 @@ Your real device storage can be mounted to `/sdcard/real_storage` or `/local_dis
 ### **Init script**
 Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
-### **Use external SD Card as VM storage**
+### **SD Card Tool**
 Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.
-You can revert back to internal storage at any time.
-   
+
+Move installed to SD Card
+
+- Mount readable sdcard to `/mnt/asec` - the location where you store apps on SD Card
+- Some app will not work properly if it is moved to SD Card
+- If you discarded SD Card then boot the virtual machine, the apps that you moved to SD Card will be uninstalled [ Be careful ]
+ 
 <img src="https://i.imgur.com/OQZydzV.png"/>
 
 ### **Dual space**
