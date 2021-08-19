@@ -188,8 +188,8 @@ v1.18 add **Flash a zip by path**
 4. **Flash a zip by call command**
 
 ```
-generic:/ $ . utils
-generic:/ $ install_mod path/to/zip
+source utils
+install_mod path/to/zip
 ```
 
 ## Supported VM & Android version
