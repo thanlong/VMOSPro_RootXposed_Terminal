@@ -64,7 +64,7 @@ Install/uninstall root: Tool can help you to root or unroot your VM. Support roo
 
 Hide root access: `su` binary is hidden (deleted temporarily)
 
-Change root package: change package of Superuser app and `su` binary.
+Fix Superuser crash: change package of Superuser app and `su` binary.
 
 Root checker: Check if `su` binary is working properly.
 
