@@ -42,6 +42,11 @@ Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your
 cd /sdcard/Download/vmostool_systemless
 sh patch.sh
 ```
+Or
+```
+sh /sdcard/Download/vmostool_systemless/patch.sh
+```
+
 
 Now, Terminal will start to patch your ROM. On your Terminal will like this:
 
