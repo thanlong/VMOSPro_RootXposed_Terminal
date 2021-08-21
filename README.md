@@ -68,32 +68,27 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 ## Functions
 
 ### **SU Helper**
-Install/uninstall root: Tool can help you to root or unroot your VM. Support rooting Android 4.4 ROM VM.
-
-Hide root access: `su` binary is hidden (deleted temporarily)
-
-Fix Superuser crash: change package of Superuser app and `su` binary.
-
-Root checker: Check if `su` binary is working properly.
+Enable Root to grant Superuser permission to any apps, also hide superuser binary temporarily.
 
 ### **Xposed Framework**
-Tool can help you to install or uninstall Xposed Framework on VM.
+Install or uninstall Xposed on virtual machine.
 
 ### **Busybox**
-Built-in Busybox at `/system/.tool/busybox/busybox` can be installed to `/system/xbin`
+Built-in Busybox at `/tool_files/main/exbin/busybox` can be installed to `/system/xbin`
 
 ### **Wipe dalvik-cache**
+VMOS waste too much data...
 Free up your memory space temporarily, note that the next boot will take long time.
 
 ### **VMOS Props Config**
 
-Change VMOS property (GPU, IMEI) without reboot, unlock PUBG Mobile max settings.
+Override GPU, IMEI immediately without reboot, unlock PUBG Mobile max settings.
 
 ### **Install modifications** 
 [See "VMOS Tool modification"](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-modification-zip-v18)
 
 ### **Mount real storage**
-Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Access your files in real phone storage (internal and external storage) from virtual machine. Note: Read-write external storage at `/sdcard/real_storage/storage/<sdcard_name>/Android/data/com.vmos.pro/`
+Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Allow you to access your files in real phone storage (internal and external storage) through virtual machine.
 
 ### **Init script**
 Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
@@ -116,8 +111,9 @@ Create second space, switch between two space easily. Two independent space on o
 
 ### **Google Services** 
 
-Easy to install or uninstall Google Services
+Install Google Services on any virtual machine.
 
+After your enable Google Services in settings, you cannot turn it off. Tool can uninstall Google Services when you don't need it anymore...
 
 ## VMOS Tool modification zip (v1.8+)
 
