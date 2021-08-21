@@ -96,7 +96,7 @@ Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-
 ### **SD Card Tool**
 Expand your VM storage by using the memory card capacity as the virtual machine's `/sdcard` internal memory.
 
-Move installed to SD Card
+Force move any installed apps to SD Card to gain your Internal memory capacity
 
 - Mount readable sdcard to `/mnt/asec` - the location where you store apps on SD Card
 - Some app will not work properly if it is moved to SD Card
