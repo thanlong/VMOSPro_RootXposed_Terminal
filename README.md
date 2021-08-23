@@ -59,7 +59,7 @@ After that you can recovery ROM and tool will be installed. Run `tool` command t
  
 
 ### VphoneGaga 2.1.3 (with Magisk)
-Good news for anyone who want to run Magisk on VMOS that Vphone have proper system and can run Magisk properly. Because VphoneGaga doesn't allow Magisk on init stage so I only put it run on late_start stage so Magisk modules cannot load. VphoneGaga kernel doesn't support mount namespace so impossible to make MagiskHide work. 
+Good news for anyone who want to run Magisk on VMOS that Vphone have proper system and can run Magisk properly. Because VphoneGaga doesn't allow Magisk on init stage so I only put it run on late_start stage so Magisk modules cannot load which need to load after post-fs-data and before late_start stage. VphoneGaga kernel doesn't support mount namespace so impossible to make MagiskHide work. 
 
   1. Download `vmostool_magisk.zip`
   2. Import to VphoneGaga. You can find it at `/sdcard/Documents`, extract to any folder. For example here `/sdcard/Documents/vmostool_magisk`.
