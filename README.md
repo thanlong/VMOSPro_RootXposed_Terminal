@@ -222,6 +222,6 @@ F1VM, X8 Sandbox (Read-only system): You are not able to change any thing in `/s
 ## Download
 
 
-Download tool from [MEGA](http://link1s.com/W2GN7) or [Mediafire](http://link1s.com/VMOSTool)
+Download tool from [MEGA](http://link1s.com/W2GN7) 
 
 Tool will be automatically updated after reboot
