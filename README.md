@@ -92,7 +92,7 @@ Override GPU, IMEI immediately without reboot, unlock PUBG Mobile max settings.
 ### **Mount real storage**
 Your real device storage can be mounted to `/sdcard/real_storage` or `/local_disk` in VMOS Pro. Allow you to access your files in real phone storage (internal and external storage) through virtual machine.
 
-### **Init script**
+### **Init.d script support**
 Execute script on `late_start` (path: `/data/adb/script/late_start.d`) or `post-fs-data` (path: `/data/adb/script/post-fs-data.d`)
 
 ### **SD Card Tool**
