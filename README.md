@@ -233,11 +233,13 @@ VMOS Pro from Google Play Store: Android 7.1.2
 
 VMOS old version: Android 5.1.1
 
+VphoneGaga (Root with Magisk)
+
 Virtual Android: You are not able to root this VM because `daemonsu` can't launch.
 
 ### Not supported
 
-F1VM, X8 Sandbox, VphoneGaga (Read-only system): You are not able to change any thing in `/system` even you granted root access.
+F1VM, X8 Sandbox (Read-only system): You are not able to change any thing in `/system` even you granted root access.
 
 ## Download
 
