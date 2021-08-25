@@ -72,6 +72,8 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 ### **SU Helper**
 Enable Root to grant Superuser permission to any apps, also hide superuser binary temporarily.
 
+VMOS cannot run Magisk properly
+
 ### **Xposed Framework**
 Install or uninstall Xposed on virtual machine.
 
