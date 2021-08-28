@@ -31,13 +31,14 @@ Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your
 1. Download `vmostool_systemless.zip`
 2. Import it to VMOS Pro, then you can find it at `/sdcard/VMOSfiletransferstation` path
 3. Extract it to `vmostool_systemless` folder
-4. Run command (example if files are at ``/sdcard/VMOSfiletransferstation/vmostool_systemless` :
+4. Run command on Material Terminal app (example if files are at `/sdcard/VMOSfiletransferstation/vmostool_systemless`):
+
 ```
 sh /sdcard/VMOSfiletransferstation/vmostool_systemless/vmos.sh
 ```
 
 
-**Install into ROM**
+**Install into ROM zip**
 
 Watch video: https://youtu.be/uQsPoYyLm5c
 
