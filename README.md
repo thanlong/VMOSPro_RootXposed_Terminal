@@ -36,7 +36,7 @@ Because `/system` is locked at Read-only on VMOS Pro from v1.3.1 and above, your
 ```
 sh /sdcard/VMOSfiletransferstation/vmostool_systemless/vmos.sh
 ```
-
+5. Reboot the virtual machine.
 
 **Install into ROM zip**
 
