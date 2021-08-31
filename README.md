@@ -3,7 +3,7 @@
 <a href="https://youtu.be/hW93qhU4TA0"><img src="https://i.imgur.com/LDSRrFt.png"/></a>
 
 
-A simple scripting tool that gives you useful features. Add or remove Root and Xposed Framework, Busybox, etc. without paying for VMOS Pro VIP 😎
+A simple scripting tool that gives you useful features: Root and Xposed Framework, Busybox, v.v
 
 <img src="https://i.imgur.com/Az9a6rH.jpg" width="70%"/>
 
