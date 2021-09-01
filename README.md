@@ -142,7 +142,7 @@ After your enable Google Services in settings, you cannot turn it off. Tool can 
 
 Do you know you can import data from a virtual machine to another virtual machine. VMOS Pro provide you with **Backup virtual machine** (known as **Backup ROM**) which backup entire systemfiles. Everytime you backup ROM, it waste too much your memory.
 
-This function only backup `/data` (not include dalvik-cache) as modification zip. It lighter than backup ROM. You can flash zip on any virtual machine to restore your data.
+This function only backup `/data` (not include dalvik-cache) as modification zip. It is lighter than backup ROM. You can flash zip on any virtual machine to restore your data.
 
 
 ## VMOS Tool modification zip (v1.8+)
