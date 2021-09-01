@@ -85,21 +85,27 @@ Download my GEEK ROM with Terminal Tool pre-installed:
 ### **SU Helper**
 Enable Root to grant Superuser permission to any apps, also hide superuser binary temporarily.
 
+Athough virtual machine systemfiles can be modified without performing root access but many root-needed apps work on the way only pass command though `su` command.
+
 VMOS cannot run Magisk properly
 
 ### **Xposed Framework**
-Install or uninstall Xposed on virtual machine.
+Install or uninstall Xposed on virtual machine. 
+
+Note: Xposed Framework will make system boot longer, waste much RAM or slow performance down.
 
 ### **Busybox**
 Built-in Busybox at `/tool_files/main/exbin/busybox` can be installed to `/system/xbin`
 
 ### **Wipe dalvik-cache**
-VMOS waste too much data...
-Free up your memory space temporarily, note that the next boot will take long time.
+
+VMOS waste too much your memory...
+
+Free up your memory space temporarily, note that the next boot may take long time (if you have installed Xposed Framework, it will longer than normal!)
 
 ### **VMOS Props Config**
 
-Override GPU, IMEI immediately without reboot, unlock PUBG Mobile max settings.
+Override GPU, IMEI immediately without reboot, unlock game max settings.
 
 ### **Install modifications** 
 [See "VMOS Tool modification"](https://github.com/HuskyDG/VMOSPro_RootXposed_Terminal#vmos-tool-modification-zip-v18)
@@ -131,6 +137,13 @@ Create second space, switch between two space easily. Two independent space on o
 Install Google Services on any virtual machine.
 
 After your enable Google Services in settings, you cannot turn it off. Tool can uninstall Google Services when you don't need it anymore...
+
+### Backup data
+
+Do you know you can import data from a virtual machine to another virtual machine. VMOS Pro provide you with **Backup virtual machine** (known as **Backup ROM**) which backup entire systemfiles. Everytime you backup ROM, it waste too much your memory.
+
+This function only backup `/data` (not include dalvik-cache) as modification zip. It lighter than backup ROM. You can flash zip on any virtual machine to restore your data.
+
 
 ## VMOS Tool modification zip (v1.8+)
 
